@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 14 - First Project</title>
+
+    <!--===================== Font Awesome CSS Link ======================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--===================== Bootstrap CSS Link ======================================-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--===================== CSS CSS Link ======================================-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <!--======================== header Area Start ========================-->
+    <header class="header">
+        <nav  class="navbar fixed-top navbar-expand-lg nav">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="./image/logo.png" alt="logo image">
+                </a>
+
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="navbar-nav header-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">about</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">pricing</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--======================= Header Area End =======================================-->
+
+
+
+    <!--======================= Main Start =======================================-->
+    <main>
+
+        <!--======================= Home Start =======================================-->
+        <section class="home">
+
+            <img class="home__pattern" src="./image/pattern.png" alt="home img">
+
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-xl-7 col-md-8">
+                        <div class="home__text" data-aos="fade-up-right" data-aos-duration="2000"
+                        data-aos-once="false">
+                            <span>Hi, I’m John Andrew</span>
+                            <h1>Front End and Mobile <br> App Developer</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit mattis. </p>
+
+                            <a href="#" class="btn home__btn">contact me</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-5 col-md-4">
+                        <div class="home__img" data-aos="fade-down-left" data-aos-duration="2000"
+                        data-aos-once="false">
+                                <img class="home__dot" src="./image/homeDot.png" alt="">
+                                <img class="img-fluid box__shadow" src="./image/homeCover.png" alt="home img">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--======================= Home End =======================================-->
+
+
+        <!--======================= Services Start =======================================-->
+        <section class="services">
+            <img src="./image/triangle.png" alt="services img" class="triangel">
+            <img src="./image/circule.png" alt="servuces img" class="services__circule">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="services__heading" data-aos="zoom-in-right"
+                        data-aos-duration="2100"
+                        data-aos-once="false">
+                            <h2>services </h2>
+                            <div class="hori"></div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-8">
+                        <div class="row">
+                            <div class="col-md-6 col-xl-6">
+                                <div class="services__item" data-aos="fade-down"
+                                data-aos-duration="2200"
+                                data-aos-once="false">
+                                    <i class="fa-solid fa-magnifying-glass services__icon"></i>
+
+                                    <h3>Research</h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                    <a class="btns" href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-xl-6">
+                                <div class="services__item" data-aos="fade-left"
+                                data-aos-duration="2300"
+                                data-aos-once="false">
+                                    <i class="fa-solid fa-magnifying-glass services__icon"></i>
+
+                                    <h3>Branding</h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                    <a class="btns" href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-xl-6">
+                                <div class="services__item" data-aos="fade-up"
+                                data-aos-duration="2400"
+                                data-aos-once="false">
+                                    <i class="fa-regular fa-eye"></i>
+
+                                    <h3>UI / UX Design</h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                    <a class="btns" href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-xl-6">
+                                <div class="services__item" data-aos="fade-down-left"
+                                data-aos-duration="2500"
+                                data-aos-once="false">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+
+                                    <h3>App Development</h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                    <a class="btns" href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--======================= Services End =======================================-->
+
+
+        <!--======================= Skills Start =======================================-->
+        <section class="skills">
+            <div class="container">
+               <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                        <div class="skills__heading" data-aos="fade-down-right"
+                        data-aos-duration="2000"
+                        data-aos-once="false">
+                            <h2>EXPERIENCE & SKILLS</h2>
+                            <div class="hori"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        </div>
+                    </div>
+               </div>
+
+
+               <div class="row skill__box">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="skill__card" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="2200"
+                        data-aos-delay="2s"
+                        data-aos-once="false">
+                            <h4>2014 - 2015 (WEB DESIGNER)</span>
+                            <h3>FOX MEDIA INC.</h3>
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit pulvinar dapibus leo.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-md-6 col-xl-4">
+                        <div class="skill__card" data-aos="fade-up"
+                        data-aos-duration="2500"
+                        data-aos-delay="4s"
+                        data-aos-once="false">
+                            <h4>2014 - 2015 (WEB DESIGNER)</span>
+                            <h3>FOX MEDIA INC.</h3>
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit pulvinar dapibus leo.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="skill__card" data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="8s"
+                        data-aos-once="false">
+                            <h4>2014 - 2015 (WEB DESIGNER)</span>
+                            <h3>FOX MEDIA INC.</h3>
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit pulvinar dapibus leo.</p>
+                        </div>
+                    </div>
+
+
+
+               </div>
+
+
+               <div class="row skill__progress">
+                    <div class="col-md-6 col-xl-6">
+                        <div class="progress__item">
+                            <h3>Figma</h3>
+
+                            <div class="progress custome__progress">
+                                <div class="progress-bar custome__bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="col-md-6 col-xl-6">
+                        <div class="progress__item">
+                            <h3>Javascript</h3>
+
+                            <div class="progress custome__progress">
+                                <div class="progress-bar custome__bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-6">
+                        <div class="progress__item">
+                            <h3>Photoshop</h3>
+
+                            <div class="progress custome__progress">
+                                <div class="progress-bar custome__bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-6">
+                        <div class="progress__item">
+                            <h3>Golang</h3>
+
+                            <div class="progress custome__progress">
+                                <div class="progress-bar custome__bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-6">
+                        <div class="progress__item">
+                            <h3>Adobe XD</h3>
+
+                            <div class="progress custome__progress">
+                                <div class="progress-bar custome__bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-6">
+                        <div class="progress__item">
+                            <h3>React Native</h3>
+
+                            <div class="progress custome__progress">
+                                <div class="progress-bar custome__bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+               </div>
+            </div>
+        </section>
+        <!--======================= Skills End =======================================-->
+
+
+
+        <!--======================= Pricing Start =======================================-->
+        <section class="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                        <div class="pricing__heading">
+                            <h2>PRICING</h2>
+
+                            <div class="hori"></div>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="row pricing__card">
+                        <div class="col-md-6 col-xl-4">
+                            <div class="pricing__item">
+                                <h4>Silver</h4>
+
+                                <i class="fa-solid fa-dice-d6 price__box"></i>
+
+                                <h4 class="amount">$49</h4>
+
+                                <div class="pricing__list">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+                                
+                                <div class="pricing__list">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+                                <div class="pricing__list mag__bottom">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+
+                               <a href="#">Select Plan <i class="fa-solid fa-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="col-md-6 col-xl-4">
+                            <div class="pricing__item">
+                                <h4>Gold</h4>
+
+                                <i class="fa-solid fa-dice-d6 price__box"></i>
+
+                                <h4 class="amount">$99</h4>
+
+                                <div class="pricing__list">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+                                
+                                <div class="pricing__list">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+                                <div class="pricing__list mag__bottom">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+
+                               <a href="#">Select Plan <i class="fa-solid fa-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-4">
+                            <div class="pricing__item">
+                                <h4>Platinum</h4>
+
+                                <i class="fa-solid fa-dice-d6 price__box"></i>
+
+                                <h4 class="amount">$149</h4>
+
+                                <div class="pricing__list">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+                                
+                                <div class="pricing__list">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+                                <div class="pricing__list mag__bottom">
+                                    <i class="fa-solid fa-check price__check"></i>
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                </div>
+
+                               <a href="#">Select Plan <i class="fa-solid fa-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+
+
+
+                </div>
+                
+            </div>
+        </section>
+        <!--======================= Procing End =======================================-->
+
+
+        <!--======================= Portfolio Start ======================================-->
+        <section class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                        <div class="portfolio__heading">
+                            <h2>SELECTED WORKS</h2>
+                            <div class="hori"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row portfolio__card align-items-center">
+                    <div class="col-md-6 col-xl-6">
+                        <div class="portfolio__item">
+                            <div class="portfolio__text">
+                                <h3>eCommerce Mobile App <br> Development</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</p>
+                                <a href="#">See Details <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-6">
+                        <div class="portfoilo__item">
+                            <div class="portfolio__img1">
+                                <img src="./image/portfolio-1.png" alt="portfolio img">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-6">
+                        <div class="portfoilo__item">
+                            <div class="portfolio__img2">
+                                <img src="./image/portfolio-2.png" alt="portfolio img">
+                            </div>
+                        </div>
+                    </div>
+
+
+                  <div class="col-md-6 col-xl-6">
+                        <div class="portfolio__item">
+                            <div class="portfolio__texts">
+                                <h3>eCommerce Mobile App <br> Development</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</p>
+                                <a href="#">See Details <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                  </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <!--======================= Portfolio End =======================================-->
+
+
+        <!--======================= Testmonial Start =====================================-->
+        <section class="testmonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                        <div class="testmonial__heading">
+                            <h2>TESTIMONIALS</h2>
+                            <div class="hori"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+               <div class="row testmonial__card">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="testmonial__item">
+
+                            <i class="fa-solid fa-quote-left"></i>
+
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+    
+                            <img src="./image/test-1.png" alt="testmonial img">
+
+                            <h4>Michael Andrew</h4>
+
+                            <span>CEO Media</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="testmonial__item">
+
+                            <i class="fa-solid fa-quote-left"></i>
+
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+    
+                            <img src="./image/test-2.png" alt="testmonial img">
+
+                            <h4>Michael Andrew</h4>
+
+                            <span>CEO Media</span>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="testmonial__item test-last">
+
+                            <i class="fa-solid fa-quote-left"></i>
+
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+    
+                            <img src="./image/test-3.png" alt="testmonial img">
+
+                            <h4>Michael Andrew</h4>
+
+                            <span>CEO Media</span>
+                        </div>
+                    </div>
+               </div>
+              
+            </div>
+        </section>
+        <!--======================= Testmonial Start =====================================-->
+
+
+       <!--======================= Hero Section Start ===================================-->
+         <section class="hero">
+            <div class="container">
+                <div class="row hero__content align-items-center">
+                    <div class="col-xl-9 col-md-7">
+                        <div class="hero__left">
+                            <h2>Discover How Design <br>
+                                 Can Help Your
+                                 <br> Business</h2>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-5">
+                       <div class="hero__btn">
+                        <a href="#">Contact Me</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--======================= Hero Section End ===================================-->
+    </main>
+    <!--======================= Main End=======================================-->
+
+
+    <!--======================= Footer Start=======================================-->
+    <footer class="footer"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="footer__content">
+                        <h4>Get In Touch With Me</h4>
+                        <p class="text-1">Victoria Street No 1, London</p>
+                        <p class="text-2">contactinfo@mobdev.test</p>
+                        <span>(001) 1231 3453</span>
+
+                        <div class="footer__social">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-dribbble"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+        </div>
+        
+    </footer>
+    <!--======================= Footer End=======================================-->
+
+
+    <!--==========================Bootstratp JS Link ===============================-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!--==========================Main JS Link ===============================-->
+    <script src="./js/main.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
